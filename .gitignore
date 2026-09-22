@@ -1,0 +1,5 @@
+# Runtime / generated
+ShooterGame/Saved/SavedArks/
+ShooterGame/Saved/Logs/
+*.log
+*.tmp
