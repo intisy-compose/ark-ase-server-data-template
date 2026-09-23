@@ -12,9 +12,9 @@ generates its defaults on first start, and runtime state (worlds, saves, logs) i
 Fork or replace this repo and commit your configuration (`ShooterGame/Saved/Config/` (`GameUserSettings.ini`, `Game.ini`)), then point the slot at it
 from the game-compose checkout:
 
-```bash
-./data.sh use ark-ase <owner/repo[@ref]>   # your own data repo, optionally a branch
-./data.sh use ark-ase                      # back to this template
+```powershell
+.\docker-compose.ps1 data use ark-ase <owner/repo[@ref]>   # your own data repo, optionally a branch
+.\docker-compose.ps1 data use ark-ase                      # back to this template
 ```
 
 Commit configuration, not runtime state.
